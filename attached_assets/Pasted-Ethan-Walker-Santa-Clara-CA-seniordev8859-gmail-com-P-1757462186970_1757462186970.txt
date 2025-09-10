@@ -1,0 +1,50 @@
+Ethan Walker
+Santa Clara, CA • seniordev8859@gmail.com
+________________________________________
+Professional Summary
+I am a Full-Stack Blockchain Developer with over seven years of experience in building decentralized applications (dApps), smart contracts, and blockchain-based solutions. My expertise spans Ethereum, Solidity, Web3.js, and cloud infrastructure, with a strong focus on security, scalability, and performance. I have contributed to projects in DeFi, NFTs, and enterprise blockchain integrations, collaborating closely with cross-functional teams to deliver innovative solutions.
+________________________________________
+Professional Experience
+MetaSapien – San Francisco, CA
+Co-Founder & CTO | Jan 2024 – Present
+•	Spearheaded the development of a decentralized gaming platform utilizing blockchain technology.
+•	Led a team of engineers in designing and deploying smart contracts for in-game asset management.
+•	Integrated NFT functionalities for unique digital collectibles and player rewards.
+•	Oversaw the implementation of a DAO governance model, enabling community-driven decision-making.
+•	Collaborated with cross-functional teams to ensure seamless user experience and platform scalability.
+•	MetaSapien Reshaping the Global Competitive Economy
+Galionex – Charleston, SC
+Founder & Blockchain Strategist | Jan 2022 – Dec 2023
+•	Developed and launched a cryptocurrency investment platform focusing on algorithmic trading and portfolio optimization.
+•	Implemented blockchain-based solutions for transparent and secure transaction processing.
+•	Provided strategic guidance on integrating DeFi protocols and yield farming opportunities.
+•	Educated users on blockchain technology and decentralized finance through webinars and tutorials.
+•	Galionex: Transforming Cryptocurrency Investments with Innovation
+Cortico – San Francisco, CA
+Manager of Programs & Partnerships (Government) | Jan 2021 – Dec 2021
+•	Managed partnerships with government entities to implement blockchain-based solutions for public sector projects.
+•	Led initiatives to enhance transparency and efficiency in government operations using distributed ledger technology.
+•	Coordinated with technical teams to ensure successful deployment and adoption of blockchain solutions.
+•	About Cortico Draft
+Civic Tech Solutions – New York, NY
+Blockchain Developer | Jan 2019 – Dec 2020
+•	Developed and deployed smart contracts on Ethereum for civic engagement applications.
+•	Integrated blockchain technology to ensure data integrity and transparency in public records.
+•	Collaborated with local governments to pilot blockchain-based voting systems.
+•	Student Success Story: Ethan Walker
+________________________________________
+Education
+B.S. in Computer Science – University of Tennessee (2018)
+________________________________________
+Certifications
+•	Certified Ethereum Developer – ConsenSys Academy
+•	Blockchain Specialization – Coursera
+•	Solidity Smart Contract Developer Certification – Udemy
+________________________________________
+Technical Skills
+Blockchain & Smart Contracts: Ethereum, Solidity, Truffle, Hardhat, Web3.js, Ethers.js, NFT, DeFi, ERC20/ERC721/ERC1155 standards, IPFS, Filecoin
+Frontend: React.js, Angular, Vue.js, HTML5, CSS3, TypeScript, JavaScript
+Backend & DevOps: Node.js, REST APIs, GraphQL, AWS, Docker, GitHub Actions
+Databases: PostgreSQL, MongoDB, Redis
+Collaboration: Git, Jira, Confluence, Slack, Agile/Scrum methodologies
+
