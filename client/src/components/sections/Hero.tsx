@@ -1,15 +1,39 @@
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import ImageSlider from "../ui/ImageSlider";
 import { portfolioData } from "../../data/portfolioData";
 
+const NAME = "ETHAN WALKER";
+const TYPING_SPEED = 120;
+const DELETING_SPEED = 60;
+const DELAY_AFTER_FULL = 1000;
+
 export default function Hero() {
+  const [displayed, setDisplayed] = useState("");
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    let timeout: NodeJS.Timeout;
+
+    if (!isDeleting && displayed.length < NAME.length) {
+      timeout = setTimeout(() => {
+        setDisplayed(NAME.slice(0, displayed.length + 1));
+      }, TYPING_SPEED);
+    } else if (!isDeleting && displayed.length === NAME.length) {
+      timeout = setTimeout(() => setIsDeleting(true), DELAY_AFTER_FULL);
+    } else if (isDeleting && displayed.length > 0) {
+      timeout = setTimeout(() => {
+        setDisplayed(NAME.slice(0, displayed.length - 1));
+      }, DELETING_SPEED);
+    } else if (isDeleting && displayed.length === 0) {
+      setIsDeleting(false);
+    }
+
+    return () => clearTimeout(timeout);
+  }, [displayed, isDeleting]);
+
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center py-20">
-      {/* Project Preview Slider */}
-      <div className="relative z-10 w-full px-4 mb-16">
-        <ImageSlider images={portfolioData.projectPreviews} />
-      </div>
-
       {/* Main Content */}
       <div className="relative z-10 text-center px-4">
         <motion.div
@@ -19,8 +43,10 @@ export default function Hero() {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-purple-500 to-yellow-400 bg-clip-text text-transparent">
-            ETHAN WALKER
+            {displayed}
+            <span className="animate-pulse">|</span>
           </h1>
+          {/* ...existing code... */}
           <h2 className="text-2xl md:text-4xl mb-8 text-gray-300">
             Full-Stack Blockchain Developer
           </h2>
@@ -49,6 +75,11 @@ export default function Hero() {
             </a>
           </motion.div>
         </motion.div>
+      </div>
+
+      {/* Project Preview Slider */}
+      <div className="relative z-10 w-full px-4 mb-16 pt-20">
+        <ImageSlider images={portfolioData.projectPreviews} />
       </div>
 
       {/* Scroll indicator */}
